@@ -1,0 +1,46 @@
+How to use GitHub ? 
+    1 - To initiate A new Repository 
+	  Open An Empty FOlder On Your Desktop 
+	  Click On The Path Then Type CMD To Open 
+	  Your Command Prompt Line. 
+	  Then Follow These Commands One By One . 
+    echo "# Name Of Your Repository " >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin <Your Repository Link>
+    git push -u origin main	
+	
+	Check Your Repository And You Will Be 
+	Able To See Your Commit 
+	
+	2- To Commit To An Existing Repository. 
+	Open An The Folder That You Already
+	Opned For This Repository. 
+	  Click On The Path Then Type CMD To Open 
+	  Your Command Prompt Line. 
+	  Then Follow These Commands One By One . 
+	  git status 
+	  git add . 
+	  git commit -m " Your Comment "
+	  git push 
+	  
+	  
+	  3- To Import A git Hub Repository 
+	   Open The Folder Where You Want to Import To 
+	   Open The Command Prompt Line and Type 
+	   If Your Folder Is Empty : 
+	   git clone < The Link Of The Repository To Be Imported>
+	    This Way You Will Get The Files 
+		Then You can Commit The Changes . 
+		If Folder Already Have The Files And you Want To 
+		Add The changes Use : 
+		Git pull 
+		
+		
+		
+		Notice : 
+		If You Found AnyThing Wrong Here 
+		Change it And Let Me Know . 
+	   
